@@ -8,6 +8,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
+// One time setup to make our server run
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
